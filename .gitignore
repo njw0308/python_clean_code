@@ -1,0 +1,12 @@
+# jupyter notebook
+*.ipynb_checkpoints
+*.ipynb
+
+# mypy default setting file 
+*.mypy_cache
+
+# virtual venv
+/pracie_clean_code
+
+#visual studio code
+/.vscode

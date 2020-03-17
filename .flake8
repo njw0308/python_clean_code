@@ -1,0 +1,9 @@
+[flake8]
+ignore = W292
+exclude=
+ __pycahce__,
+ .mypy_cache/*
+ .ipynb,
+ .ipynb_checkpoints/*,
+ .vscode/*
+ pracie_clean_code/*
