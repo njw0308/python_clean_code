@@ -5,10 +5,12 @@ class context_manager():
         print("START")
         return "<RETURN DATA>"
 
-    def __exit__(self, type, value, traceback):
+    def __exit__(self, type_, value, traceback):
         if traceback: # error 가 들어온 경우 다른 결과를 출력하게끔.
             print("ERROR OCCURED")
         else:    
+            print(type_) #none
+            print(value) #none
             print("FINISH")
         
 
