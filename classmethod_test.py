@@ -55,3 +55,4 @@ a.print_language() # 한국어
 b = InheritLanguage.class_my_language()
 b.print_language() # english 
 # --> class 라는 단어에서 알 수 있듯이 해당 func 을 부른 class ( InheritLanguage ) 와 새로운 연관을 맺음.
+# --> 소위 'Factory Method' 라 불림. cls can be any subclasses.
