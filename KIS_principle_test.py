@@ -26,6 +26,7 @@ class Namespace:
 
 n = Namespace(id_=12, user="jw", location="localhost.com", extra="excluded")
 
+print(dir(Namespace))
 print(dir(n))
 print(n.__dict__)
-print(cn.id_, cn.user, cn.location)
+print(n.id_, n.user, n.location)

@@ -8,9 +8,11 @@ class DateRangeIterable:
         self._present_day = start_date
 
     def __iter__(self):
+        print("iter call")
         return self
 
     def __next__(self):
+        print("next call")
         if self._present_day >= self.end_date:
             raise StopIteration
         today = self._present_day
